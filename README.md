@@ -72,4 +72,36 @@ In summary, the code reads the temperature from the LM35 sensor, displays it on 
 ** Project Report: Temperature Monitoring System using a 16X2 Liquid Crystal Display (LCD) and LM35         
 ---------------------------------------------------------------------------------------------------
 
+**1. Introduction**
+The Temperature Monitoring System is a project that utilizes a 16X2 Liquid Crystal Display (LCD) and an LM35 temperature sensor to monitor and display real-time temperature readings. This system provides a convenient way to keep track of temperature variations in various applications, such as home automation, industrial processes, and environmental monitoring.
 
+**2. Components Used**
+- Nucleo F401RE development board: It serves as the microcontroller platform for the project.
+- LM35 temperature sensor: It is an analog temperature sensor that provides accurate temperature measurements.
+- 16X2 Liquid Crystal Display (LCD): It is used to display the temperature readings.
+- Potentiometer: It is used to adjust the contrast of the LCD display.
+- Connecting wires: They are used to establish connections between the components.
+- Breadboard: It provides a platform for prototyping and connecting the components.
+
+**3. Working Principle**
+The Temperature Monitoring System works as follows:
+
+- The LM35 temperature sensor is connected to an analog input pin of the Nucleo F401RE development board.
+- The LCD is connected to the Nucleo board using the appropriate GPIO pins.
+- The system continuously reads the temperature value from the LM35 sensor using the AnalogIn function.
+- The raw sensor value is converted to millivolts and then divided by 10 to obtain the temperature in degrees Celsius.
+- The temperature reading is displayed on the LCD using the TextLCD library. The LCD is capable of displaying up to 16 characters per line and 2 lines.
+- The system compares the temperature value with a predefined threshold (in this case, 25 degrees Celsius).
+- If the temperature exceeds the threshold, a red LED is turned on to indicate a high temperature condition. If the temperature is below the threshold, a green LED is turned on to indicate a normal temperature condition.
+- The system repeats the temperature measurement and display process at regular intervals, providing real-time temperature monitoring.
+
+**4. Conclusion**
+The Temperature Monitoring System using a 16X2 Liquid Crystal Display and LM35 provides an effective solution for monitoring temperature in real-time. The system offers accurate temperature readings and visual indication through LEDs, making it suitable for various applications. By utilizing the LM35 sensor and the 16X2 LCD, the project demonstrates the integration of analog and digital components to create a functional temperature monitoring system.
+
+**5. Future Enhancements**
+- Implementing additional sensors to monitor other environmental parameters such as humidity or pressure.
+- Adding data logging capabilities to record temperature readings over time.
+- Incorporating wireless communication to enable remote monitoring and control.
+- Developing a user interface for settings adjustment and data visualization.
+
+Overall, the Temperature Monitoring System serves as a foundation for expanding the functionality and applicability of temperature monitoring in diverse scenarios.
