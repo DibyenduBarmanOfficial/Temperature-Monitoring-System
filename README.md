@@ -31,10 +31,9 @@ My Project in Microcontroller is Temperature Monitoring System using a 16X2 Liqu
    - Description: Library for interfacing with text-based LCD displays.
    - Purpose: Provides convenient functions for controlling the LCD display and printing text.
   
-------------------------------------------------------------------------------------------------------------------------------------
-** Code explanation: How the code is working for the Temperature Monitoring System using a 16X2 Liquid Crystal Display (LCD) and LM35
-------------------------------------------------------------------------------------------------------------------------------------
-
+----------------------------------------------------------------------------------------------------
+** Code explanation: Temperature Monitoring System using a 16X2 Liquid Crystal Display (LCD) and LM35
+----------------------------------------------------------------------------------------------------
 1. **Include necessary libraries:**
    - The code begins by including the required libraries, such as "mbed.h" for the mbed platform and "TextLCD.h" for interfacing with the LCD display.
 
@@ -68,3 +67,9 @@ My Project in Microcontroller is Temperature Monitoring System using a 16X2 Liqu
    - The code continues to execute the while loop, continuously monitoring the temperature and updating the display and LED indication.
 
 In summary, the code reads the temperature from the LM35 sensor, displays it on the LCD, and provides visual indication through the red and green LEDs based on the temperature threshold of 25 degrees Celsius. The system continuously repeats this process, providing real-time temperature monitoring on the LCD display.
+
+---------------------------------------------------------------------------------------------------
+** Project Report: Temperature Monitoring System using a 16X2 Liquid Crystal Display (LCD) and LM35         
+---------------------------------------------------------------------------------------------------
+
+
