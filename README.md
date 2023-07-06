@@ -12,7 +12,7 @@ My Project in Microcontroller is Temperature Monitoring System using a 16X2 Liqu
    - Purpose: Measures the ambient temperature and provides the analog temperature value.
 
 **3. 16X2 Liquid Crystal Display (LCD):**
-   - Description: Display module with two rows and 16 columns.
+   - Description: Display module with 2 rows and 16 columns.
    - Purpose: Displays the temperature reading and other relevant information.
 
 **4. Potentiometer:**
